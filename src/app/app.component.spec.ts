@@ -67,7 +67,7 @@ describe('AppComponent', () => {
     const de = fixture.debugElement;
     const ne: HTMLElement = de.nativeElement;
     const app: AppComponent = de.componentInstance;
-
+    
     fixture.detectChanges();
 
     let invoiceLines = ne.querySelectorAll<HTMLTableRowElement>('#invoice-lines');
